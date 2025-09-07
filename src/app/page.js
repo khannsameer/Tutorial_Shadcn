@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import DialogDemo from "@/components/ui/DialogDemo";
 
 const Page = () => {
   let isDarkMode = true;
@@ -19,6 +20,7 @@ const Page = () => {
         run:
       </p>
       <Button>Click me</Button>
+      <DialogDemo />
     </>
   );
 };

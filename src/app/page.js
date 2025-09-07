@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import DialogDemo from "@/components/ui/DialogDemo";
+import DrawerDemo from "@/components/ui/DrawerDemo";
 
 const Page = () => {
   let isDarkMode = true;
@@ -20,7 +21,12 @@ const Page = () => {
         run:
       </p>
       <Button>Click me</Button>
-      <DialogDemo />
+      <section>
+        <DialogDemo />
+      </section>
+      <section>
+        <DrawerDemo />
+      </section>
     </>
   );
 };

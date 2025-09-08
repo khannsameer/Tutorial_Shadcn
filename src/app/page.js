@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import DialogDemo from "@/components/ui/DialogDemo";
 import DrawerDemo from "@/components/ui/DrawerDemo";
 import CarouselDemo from "@/components/ui/CarouselDemo";
+import SheetDemo from "@/components/ui/SheetDemo";
 
 const Page = () => {
   let isDarkMode = true;
@@ -25,12 +26,17 @@ const Page = () => {
       <section>
         <DialogDemo />
       </section>
+
       <section>
         <DrawerDemo />
       </section>
 
       <section>
         <CarouselDemo />
+      </section>
+
+      <section>
+        <SheetDemo />
       </section>
     </section>
   );

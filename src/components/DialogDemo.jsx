@@ -9,7 +9,8 @@ import {
   DialogTrigger,
   DialogClose,
 } from "@/components/ui/dialog";
-import { Button } from "./button";
+import { Button } from "./ui/button";
+
 // import { DialogClose } from "@radix-ui/react-dialog";
 
 const DialogDemo = () => {

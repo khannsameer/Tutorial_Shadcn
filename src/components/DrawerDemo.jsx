@@ -9,7 +9,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 
 const DrawerDemo = () => {
   return (

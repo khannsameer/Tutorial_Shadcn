@@ -1,10 +1,11 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import DialogDemo from "@/components/ui/DialogDemo";
-import DrawerDemo from "@/components/ui/DrawerDemo";
-import CarouselDemo from "@/components/ui/CarouselDemo";
-import SheetDemo from "@/components/ui/SheetDemo";
+import DialogDemo from "@/components/DialogDemo";
+import DrawerDemo from "@/components/DrawerDemo";
+import CarouselDemo from "@/components/CarouselDemo";
+import SheetDemo from "@/components/SheetDemo";
+import SonnerToast from "@/components/SonnerToast";
 
 const Page = () => {
   let isDarkMode = true;
@@ -37,6 +38,10 @@ const Page = () => {
 
       <section>
         <SheetDemo />
+      </section>
+
+      <section>
+        <SonnerToast />
       </section>
     </section>
   );

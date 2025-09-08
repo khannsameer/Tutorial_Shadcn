@@ -3,12 +3,13 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import DialogDemo from "@/components/ui/DialogDemo";
 import DrawerDemo from "@/components/ui/DrawerDemo";
+import CarouselDemo from "@/components/ui/CarouselDemo";
 
 const Page = () => {
   let isDarkMode = true;
   return (
-    <>
-      <p
+    <section className="grid place-items-center">
+      {/* <p
         className={cn(
           "px-2 py-1 bg-red-500 text-white hover:bg-blue-500",
           "p-3 bg-black text-yellow-100",
@@ -19,7 +20,7 @@ const Page = () => {
         The quickest way to create a new Next.js app is using create-next-app,
         which sets up everything automatically for you. To create a project,
         run:
-      </p>
+      </p> */}
       <Button>Click me</Button>
       <section>
         <DialogDemo />
@@ -27,7 +28,11 @@ const Page = () => {
       <section>
         <DrawerDemo />
       </section>
-    </>
+
+      <section>
+        <CarouselDemo />
+      </section>
+    </section>
   );
 };
 

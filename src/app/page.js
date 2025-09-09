@@ -6,6 +6,7 @@ import DrawerDemo from "@/components/DrawerDemo";
 import CarouselDemo from "@/components/CarouselDemo";
 import SheetDemo from "@/components/SheetDemo";
 import SonnerToast from "@/components/SonnerToast";
+import { ModeToggle } from "@/components/ModeToggle";
 
 const Page = () => {
   let isDarkMode = true;
@@ -23,7 +24,12 @@ const Page = () => {
         which sets up everything automatically for you. To create a project,
         run:
       </p> */}
-      <Button>Click me</Button>
+      {/* <Button>Click me</Button> */}
+      <h1 className="text-custom">Hello Dark Mode</h1>
+      <section>
+        <ModeToggle />
+      </section>
+
       <section>
         <DialogDemo />
       </section>

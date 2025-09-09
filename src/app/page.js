@@ -7,49 +7,59 @@ import CarouselDemo from "@/components/CarouselDemo";
 import SheetDemo from "@/components/SheetDemo";
 import SonnerToast from "@/components/SonnerToast";
 import { ModeToggle } from "@/components/ModeToggle";
+import Component from "@/components/comp-467";
 
 const Page = () => {
-  let isDarkMode = true;
+  // let isDarkMode = true;
   return (
-    <section className="grid place-items-center">
-      {/* <p
-        className={cn(
-          "px-2 py-1 bg-red-500 text-white hover:bg-blue-500",
-          "p-3 bg-black text-yellow-100",
-          isDarkMode && "text-red-300",
-          { "text-yellow-400": isDarkMode }
-        )}
-      >
-        The quickest way to create a new Next.js app is using create-next-app,
-        which sets up everything automatically for you. To create a project,
-        run:
-      </p> */}
-      {/* <Button>Click me</Button> */}
-      <h1 className="text-custom">Hello Dark Mode</h1>
+    // <section className="grid place-items-center">
+    //   <p
+    //     className={cn(
+    //       "px-2 py-1 bg-red-500 text-white hover:bg-blue-500",
+    //       "p-3 bg-black text-yellow-100",
+    //       isDarkMode && "text-red-300",
+    //       { "text-yellow-400": isDarkMode }
+    //     )}
+    //   >
+    //     The quickest way to create a new Next.js app is using create-next-app,
+    //     which sets up everything automatically for you. To create a project,
+    //     run:
+    //   </p>
+    //   <Button>Click me</Button>
+    //   <h1 className="text-custom">Hello Dark Mode</h1>
+    // <section>
+    //   <ModeToggle />
+    // </section>
+
+    //   <section>
+    //     <DialogDemo />
+    //   </section>
+
+    //   <section>
+    //     <DrawerDemo />
+    //   </section>
+
+    //   <section>
+    //     <CarouselDemo />
+    //   </section>
+
+    //   <section>
+    //     <SheetDemo />
+    //   </section>
+
+    //   <section>
+    //     <SonnerToast />
+    //   </section>
+    // </section>
+    <>
       <section>
         <ModeToggle />
       </section>
-
-      <section>
-        <DialogDemo />
+      <h1 className="text-center my-10">NEXT.JS TABLE</h1>
+      <section className="w-10/12 m-auto">
+        <Component />
       </section>
-
-      <section>
-        <DrawerDemo />
-      </section>
-
-      <section>
-        <CarouselDemo />
-      </section>
-
-      <section>
-        <SheetDemo />
-      </section>
-
-      <section>
-        <SonnerToast />
-      </section>
-    </section>
+    </>
   );
 };
 
